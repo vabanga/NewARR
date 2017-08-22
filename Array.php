@@ -28,6 +28,8 @@ $Animals = array (
 	)
 );
 
+$arr1 = [];
+$arr2 = [];
 
 foreach ($Animals as $k1 => $v1) {
 	foreach ($v1 as $v2) {
@@ -39,8 +41,6 @@ foreach ($Animals as $k1 => $v1) {
 	}
 }
 
-$arr1 = [];
-$arr2 = [];
 shuffle($arr2);
 if(count($arr1)!=count($arr2)){
 	die("Массивы не одинаковых размеров");
